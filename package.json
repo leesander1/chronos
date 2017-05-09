@@ -1,18 +1,55 @@
 {
   "name": "chronos",
+  "productName": "Chronos",
   "main": "./lib/chronos",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Chronos is a package to track your time spent developing.",
   "keywords": [
+    "timer",
+    "time",
+    "timetracker",
+    "tracker",
+    "timekeeper",
+    "time tracking",
+    "time tracker",
+    "time management",
+    "punchclock",
+    "clock",
+    "punchcard",
+    "workflow",
+    "team tracker",
+    "data",
+    "work"
   ],
   "activationCommands": {
     "atom-workspace": "chronos:toggle"
   },
-  "repository": "https://github.com/atom/chronos",
+  "homepage": "https://github.com/leesander1/chronos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leesander1/chronos.git"
+  },
+  "bugs": {
+  "url": "https://github.com/leesander1/chronos/issues"
+},
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "moment": "*",
+    "twix": "*",
+    "mkdirp": "*",
+    "etch": "^0.1.0",
+    "recursive-readdir": "^1.2.1",
+    "event-kit": "*"
+  },
+  "devDependencies": {},
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
   }
 }
