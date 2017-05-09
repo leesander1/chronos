@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle chronos",
+        "command": "chronos:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "chronos",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "chronos:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
